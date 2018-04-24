@@ -6,3 +6,4 @@ public class DogfightView {
 	public String message (displayMessage) {}
 	public void closeall() {}
 }
+ 
