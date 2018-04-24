@@ -7,4 +7,4 @@ public class Missile extends Mobile{
 	private static String IMAGE = "missile";
 	private int distanceTraveled = 0;
 	 
-	 
+	   
