@@ -6,5 +6,5 @@ public class Missile extends Mobile{
 	private static int MAX_DISTANCE_TRAVELED = 1400;
 	private static String IMAGE = "missile";
 	private int distanceTraveled = 0;
-	
-	
+	 
+	 
