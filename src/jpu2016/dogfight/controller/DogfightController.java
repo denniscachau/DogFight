@@ -4,7 +4,7 @@ public class DogfightController {
 	static int TIME_SLEEP = 30;
 	
 	public DogfightController(IDogfightModel dogfightModel) {
-		
+		 
 	}
 	
 	public void orderPerform(UserOrder userOrder) {
