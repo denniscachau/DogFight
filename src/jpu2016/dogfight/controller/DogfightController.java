@@ -4,7 +4,7 @@ public class DogfightController {
 	static int TIME_SLEEP = 30;
 	
 	public DogfightController(IDogfightModel dogfightModel) {
-		 
+		 this.dogfightModel = dogfightModel;
 	}
 	
 	public void orderPerform(UserOrder userOrder) {
@@ -16,7 +16,7 @@ public class DogfightController {
 	}
 	
 	public void setViewSystem(IViewSystem viewSystem) {
-		
+		this.ViewSystem = ViewSystem;
 	}
 	
 	private void launchMissile(int player) {
