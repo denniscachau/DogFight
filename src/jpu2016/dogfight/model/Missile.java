@@ -21,4 +21,4 @@ public void move() {
 }
 public boolean isWeapon() {
 }
-}
+  }
