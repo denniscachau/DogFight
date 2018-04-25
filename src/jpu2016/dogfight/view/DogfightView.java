@@ -1,9 +1,19 @@
 package jpu2016.dogfight.view;
 
-public class DogfightView {
+import java.util.Observable;
 
-	private void run () {}
-	public String message (displayMessage) {}
+import jpu2016.dogfight.controller.IOrderPerformer;
+import jpu2016.dogfight.model.IDogfightModel;
+
+public class DogfightView implements Runnable {
+	
+	public String message;
+	
+	public DogfightView (IOrderPerformer orderPerformer, IDogfightModel dogfightModel, Observable observable ) {}
+	public void run () {}
+	public void displayMessage(String message) {
+		System.out.println(message);
+	}
 	public void closeall() {}
 }
  
