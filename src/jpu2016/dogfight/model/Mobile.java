@@ -1,7 +1,7 @@
 package jpu2016.dogfight.model;
 
 import java.awt.Image;
-import java.awt.Point; 
+import java.awt.Point;
 
 public class Mobile implements IMobile{
 	public Mobile(Direction direction, Position position, Dimension dimension, int speed, String image) {	
@@ -37,17 +37,17 @@ public class Mobile implements IMobile{
 	@Override
 	public int getWidth() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 1;
 	}
 	@Override
 	public int getHeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 1;
 	}
 	@Override
 	public int getSpeed() {
 		// TODO Auto-generated method stub
-		return 0;
+		return 1;
 	}
 	@Override
 	public Image getImage() {

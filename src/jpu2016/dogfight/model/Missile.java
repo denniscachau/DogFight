@@ -8,17 +8,23 @@ public class Missile extends Mobile{
 	private static String IMAGE = "missile";
 	private int distanceTraveled = 0;
 	 
-public Missile(Direction direction, Dimension dimension);
+public Missile(Direction direction, Dimension dimension) {
+	
+}
+
+
+
 public static int getWidthWithADierection(Direction direction) {
-	return WIDTH;
+	return 1;
 }
 public static int getHeightWithADierection(Direction direction) {
-	return HEIGHT;
+	return 1;
 }
 
 public void move() {
 	
 }
 public boolean isWeapon() {
+	return false;
 }
   } 

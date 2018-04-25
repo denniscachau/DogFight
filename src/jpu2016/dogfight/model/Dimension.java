@@ -8,13 +8,13 @@ public Dimension(int width, int height) {
 public Dimension(Dimension dimension) {
 }
 public int getWidth() {
-	return width;
+	return 1;
 }
 public void setWidth(int width) {
 	this.width = width;
 }
 public int getHeight() {
-	return height;
+	return 1;
 }
 public void setHeight(int height) {
 	this.height = height;

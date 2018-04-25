@@ -13,13 +13,13 @@ public class Position extends Mobile{
 		
 	}
 	public double getX() {
-		return x;
+		return 1;
 	}
 	public void setX(double x) {
 		this.x = x;
 	}
 	public double getY() {
-		return y;
+		return 1;
 	}
 	public void setY(double y) {
 		this.y = y;
