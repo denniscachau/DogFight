@@ -12,4 +12,4 @@ public class Plane extends Mobile{
 	}
 	public boolean hit() {	
 	}
-} 
+}  

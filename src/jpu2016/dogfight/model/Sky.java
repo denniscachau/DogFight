@@ -16,4 +16,4 @@ public class Sky implements IArea{
 		return null;
 	}
 	
-}
+}  

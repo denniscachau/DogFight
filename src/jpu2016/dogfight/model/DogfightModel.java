@@ -19,4 +19,4 @@ public class DogfightModel implements IDogfightModel{
 	}
 	public void setMobileHavesMoved() {	
 	}
-}
+} 
