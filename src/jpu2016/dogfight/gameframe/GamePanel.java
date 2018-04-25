@@ -5,3 +5,4 @@ public class GamePanel {
 	public update (Observable observable) {}
 	public void paintComponent (Graphics graphic) {}
 }
+ 

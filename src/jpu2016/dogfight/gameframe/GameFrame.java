@@ -6,4 +6,4 @@ public class GameFrame {
 	public void keyPressed (KeyEvent keyEvent) {}
 	public void keyReleased (KeyEvent keyEvent) {}
 	public void keyTyped (KeyEvent keyEvent) {}
-} 
+}   
