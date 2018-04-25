@@ -1,11 +1,14 @@
 package jpu2016.dogfight.gameframe;
 
+import java.awt.Graphics;
+import java.awt.image.ImageObserver;
+
 public interface IGraphicsBuilder {
-	public void applyModelToGraphic (Graphics graphic, ImageObserver observer) {}
-	public int getGlobalWidth() {
+	public static void applyModelToGraphic (Graphics graphic, ImageObserver observer) {}
+	public static int getGlobalWidth() {
 		return 1;
 	}
-	public int getGlobalHeight() {
+	public static int getGlobalHeight() {
 		return 1;
 	}
 }

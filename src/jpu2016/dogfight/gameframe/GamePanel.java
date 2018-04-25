@@ -1,8 +1,13 @@
 package jpu2016.dogfight.gameframe;
 
-public class GamePanel {
+import java.awt.Graphics;
+import java.util.*;
+
+public abstract class GamePanel implements Observer {
+	
 	public GamePanel(IGraphicsBuilder graphicBuilder) {} 
-	public update (Observable observable) {}
+	public void update (Observable observable) {}
 	public void paintComponent (Graphics graphic) {}
+	
 }
  
