@@ -1,4 +1,7 @@
-package jpu2016.gameframe;
+package jpu2016.dogfight.gameframe;
+
+import java.awt.event.KeyEvent;
+import java.util.*;
 
 public class GameFrame {
 	
@@ -6,4 +9,4 @@ public class GameFrame {
 	public void keyPressed (KeyEvent keyEvent) {}
 	public void keyReleased (KeyEvent keyEvent) {}
 	public void keyTyped (KeyEvent keyEvent) {}
-} 
+}   
