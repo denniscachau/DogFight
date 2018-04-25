@@ -2,7 +2,7 @@ package jpu2016.dogfight.model;
 
 import java.util.ArrayList;
 
-public interface IDogfightModel {
+public interface IDogFightModel {
 public IArea getArea();
 public void buildArea(Dimension dimension);
 public void addMobile(IMobile Mobile);
